@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 
-/*TODO:: fix the main cards width */
+
 
 body {
     font-family: "Indie Flower", cursive !important;
@@ -101,7 +101,7 @@ h4 {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 300px;
+    width: 350px;
     height: 400px;
     background: #e0e1dc;
     transform-style: preserve-3d;
@@ -202,4 +202,16 @@ h4 {
 
 .text-right {
     text-align: right;
+}
+
+.click-me {
+    text-decoration: none;
+    color: forestgreen;
+    padding: 3px;
+    background-color: #fde3a7;
+    border-radius: 10px;
+}
+
+.click-me:hover {
+    background-color: #FFDB58;
 }
